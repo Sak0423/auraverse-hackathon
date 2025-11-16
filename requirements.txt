@@ -1,0 +1,11 @@
+fastapi
+uvicorn[standard]
+pydantic
+streamlit
+python-dotenv
+pymongo
+beautifulsoup4
+python-dateutil
+pdfminer.six
+regex
+pymongo
