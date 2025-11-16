@@ -1,0 +1,116 @@
+{
+  "id": "d33457ee",
+  "fragment_index": 1,
+  "fragment_kind": "json",
+  "rows_count": 1,
+  "storage_decision": {
+    "type": "nosql",
+    "reason": "found nested structures in 1 docs"
+  },
+  "generated": {
+    "mongo": {
+      "validator": {
+        "$jsonSchema": {
+          "bsonType": "object",
+          "properties": {
+            "id": {
+              "bsonType": "string"
+            },
+            "title": {
+              "bsonType": "string"
+            },
+            "slug": {
+              "bsonType": "string"
+            },
+            "pricing": {
+              "bsonType": "object"
+            },
+            "tags": {
+              "bsonType": "array"
+            },
+            "dimensions": {
+              "bsonType": "object"
+            },
+            "release_date": {
+              "bsonType": "date"
+            }
+          }
+        }
+      },
+      "fields": {
+        "id": {
+          "type": "string",
+          "example": "prod-1001",
+          "count": 1
+        },
+        "title": {
+          "type": "string",
+          "example": "Widget A",
+          "count": 1
+        },
+        "slug": {
+          "type": "string",
+          "example": "widget-a",
+          "count": 1
+        },
+        "pricing": {
+          "type": "object",
+          "example": {
+            "price_usd": "9.99",
+            "inventory": 120,
+            "currency_hint": "USD"
+          },
+          "count": 1
+        },
+        "tags": {
+          "type": "array",
+          "example": [
+            "gadget",
+            "home",
+            "widget"
+          ],
+          "count": 1
+        },
+        "dimensions": {
+          "type": "object",
+          "example": {
+            "w_mm": 120,
+            "h_mm": 45,
+            "d_mm": 30
+          },
+          "count": 1
+        },
+        "release_date": {
+          "type": "date",
+          "example": "2025-11-01",
+          "count": 1
+        }
+      }
+    }
+  },
+  "sample_rows": [
+    {
+      "id": "prod-1001",
+      "title": "Widget A",
+      "slug": "widget-a",
+      "pricing": {
+        "price_usd": "9.99",
+        "inventory": 120,
+        "currency_hint": "USD"
+      },
+      "tags": [
+        "gadget",
+        "home",
+        "widget"
+      ],
+      "dimensions": {
+        "w_mm": 120,
+        "h_mm": 45,
+        "d_mm": 30
+      },
+      "release_date": "2025-11-01"
+    }
+  ],
+  "created_at": "2025-11-16T04:30:17.473678Z",
+  "mongo_error": "cannot import name 'insert_documents' from 'etl.mongo_utils' (C:\\Users\\saksh\\Downloads\\ETL-auraverse-hackathon\\etl-auraverse-hackathon\\etl\\mongo_utils.py)"
+}

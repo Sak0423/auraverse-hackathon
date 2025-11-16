@@ -1,0 +1,22 @@
+{
+  "id": "5722e0e3",
+  "fragment_index": 5,
+  "fragment_kind": "kv",
+  "rows_count": 0,
+  "storage_decision": {
+    "type": "object",
+    "reason": "no structured docs found"
+  },
+  "generated": {
+    "json_schema": {
+      "json_schema": {
+        "type": "object",
+        "properties": {}
+      },
+      "fields": {}
+    }
+  },
+  "sample_rows": [],
+  "created_at": "2025-11-16T04:30:20.968321Z",
+  "mongo_error": "cannot import name 'insert_documents' from 'etl.mongo_utils' (C:\\Users\\saksh\\Downloads\\ETL-auraverse-hackathon\\etl-auraverse-hackathon\\etl\\mongo_utils.py)"
+}

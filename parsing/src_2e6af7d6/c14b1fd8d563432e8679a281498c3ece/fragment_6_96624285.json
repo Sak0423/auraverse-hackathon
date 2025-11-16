@@ -1,0 +1,35 @@
+{
+  "id": "96624285",
+  "fragment_index": 6,
+  "fragment_kind": "raw",
+  "rows_count": 1,
+  "storage_decision": {
+    "type": "nosql",
+    "reason": "raw_text_fallback"
+  },
+  "generated": {
+    "json_schema": {
+      "json_schema": {
+        "type": "object",
+        "properties": {
+          "_text": {
+            "type": "string"
+          }
+        }
+      },
+      "fields": {
+        "_text": {
+          "type": "string",
+          "example": "# mock_input.txt # Source: example-scrape # scraped_at: 2025-11-10T14:22:00+05:30 --- METADATA (key: value lines) source: https://example.com/product/widget-a scraper: simple-scraper-v1 lang: en publi",
+          "count": 1
+        }
+      }
+    }
+  },
+  "sample_rows": [
+    {
+      "_text": "# mock_input.txt # Source: example-scrape # scraped_at: 2025-11-10T14:22:00+05:30 --- METADATA (key: value lines) source: https://example.com/product/widget-a scraper: simple-scraper-v1 lang: en publi"
+    }
+  ],
+  "created_at": "2025-11-16T04:30:20.969693Z"
+}

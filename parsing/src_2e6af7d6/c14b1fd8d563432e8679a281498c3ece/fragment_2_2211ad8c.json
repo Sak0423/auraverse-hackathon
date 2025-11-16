@@ -1,0 +1,64 @@
+{
+  "id": "2211ad8c",
+  "fragment_index": 2,
+  "fragment_kind": "html_table",
+  "rows_count": 1,
+  "storage_decision": {
+    "type": "object",
+    "reason": "no consistent tabular structure detected"
+  },
+  "generated": {
+    "json_schema": {
+      "json_schema": {
+        "type": "object",
+        "properties": {
+          "author": {
+            "type": "string"
+          },
+          "rating": {
+            "type": "integer"
+          },
+          "comment": {
+            "type": "string"
+          },
+          "date": {
+            "type": "string",
+            "format": "date-time"
+          }
+        }
+      },
+      "fields": {
+        "author": {
+          "type": "string",
+          "example": "Alice",
+          "count": 1
+        },
+        "rating": {
+          "type": "integer",
+          "example": "5",
+          "count": 1
+        },
+        "comment": {
+          "type": "string",
+          "example": "Excellent product.",
+          "count": 1
+        },
+        "date": {
+          "type": "date",
+          "example": "2025-10-20",
+          "count": 1
+        }
+      }
+    }
+  },
+  "sample_rows": [
+    {
+      "author": "Alice",
+      "rating": "5",
+      "comment": "Excellent product.",
+      "date": "2025-10-20"
+    }
+  ],
+  "created_at": "2025-11-16T04:30:20.962904Z",
+  "mongo_error": "cannot import name 'insert_documents' from 'etl.mongo_utils' (C:\\Users\\saksh\\Downloads\\ETL-auraverse-hackathon\\etl-auraverse-hackathon\\etl\\mongo_utils.py)"
+}
